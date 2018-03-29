@@ -1,0 +1,44 @@
+body {
+    background-color: #fff;
+    margin: 0px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main-nav {
+    background: #777 top fixed;
+    color: azure;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+
+.main-nav__list-element {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+.main-nav__list-element:hover {
+    background-color: cyan;
+}
+
+.main-section {
+    font-size: 28px;
+    margin-top: 82px;
+    padding: 18px;
+    padding-top: 1px;
+}
+
+a:hover, a:visited {
+    color: azure;
+}
